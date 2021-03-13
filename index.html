@@ -4,21 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- folha de estilos principal -->
     <link rel="stylesheet" href="style/main.css">
-    <title>CopaFlix</title>
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/olw/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/olw/owl.theme.default.min.css">
+    
+    <!-- responsive css -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>CAGEFLIX</title>
+
 </head>
 <body>
+    <!-- cabeçalho do site-->
     <header>
         <div class="container">
-            <h2 class="logo">COPAFLIX</h2>
+            <h2 class="logo">CAGEFLIX</h2>
             <nav>
-                <a href="">Inicio</a>
-                <a href="">Campeões</a>
-                <a href="">Vices</a>
-                <a href="">Maiores jogadores</a>
+                <a href="">Início</a>
+                <a href="">Filmes</a>
+                <a href="">Séries</a>
+                <a href="">Prêmios</a>
             </nav>
         </div>
     </header>
+    <!-- div principal de filme destaque-->
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">The Sorcerer's Apprentice</h3>
+                <p class="description">Balthazar Blake is a master sorcerer in modern-day Manhattan trying to defend the city from his arch-nemesis, Maxim Horvath. Balthazar can't do it alone, so he recruits Dave Stutler, a seemingly average guy who demonstrates hidden potential, as his reluctant protégé.</p>     
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSITIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- carossel de sugestão de filmes--> 
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="/img/carossel.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carosel15.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel17.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel9.jpg"  rcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel8.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/caroussel10.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel7.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel6.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel5.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel4.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel11.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel19.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel14.jpg" srcset="" >
+            </div>
+            <div class="item">
+                <img class="box-filme" src="/img/carossel13.jpg" srcset="" >
+            </div>
+        </div>
+    </div>
+
+
+    <!-- javascript buttons fontawesome -->
+    <script src="https://kit.fontawesome.com/a1b5c5c935.js"></script>
+
+    <!-- javascript owl carousel -->
+    <script src="js/olw/jquery.min.js" ></script>
+    <script src="js/olw/owl.carousel.min.js" ></script>
+    <script src="js/olw/setup.js"></script>
+
 
 </body>
 </html>

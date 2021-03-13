@@ -2,11 +2,12 @@
 
 ### Objetivos: 
 
-Recriar a interface do principal site de streaming mundial utilizando tecnologias simples como ***HTML5, CSS3 e JavaScript.*** 
+Recriar a interface do principal site de streaming mundial utilizando tecnologias simples como ***HTML5, CSS3 e JavaScript.***. 
 
 - Estruturar um layout
 - Técnicas de CSS3 com containers e variáveis
 - Posicionar os elementos com Flexbox
 - Utilizar plugins Jquery na aplicação.
 
+Usaremos os filmes do Nicolas Cage e se chamará CAGEFLIX. 
 
